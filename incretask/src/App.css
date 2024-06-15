@@ -1,0 +1,56 @@
+.main{
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+}
+.main .left,.main .right{
+  text-align: center;
+}
+.main .left h2{
+  font-size: 15vw;
+  text-transform: capitalize;
+}
+.main .right {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.main .right button{
+  text-transform: capitalize;
+  width: fit-content;
+  margin-inline: 25px;
+  margin-block: 20px;
+  padding: 10px 30px;
+  background: black;
+  color: white;
+  border: none;
+  outline: none;
+  font-size: 3rem;
+}
+/* App.css for app.js */
+.App {
+  text-align: center;
+}
+
+.nav-link {
+  color: blue;
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px;
+  display: inline-block;
+}
+
+.nav-link:hover {
+  color: darkblue;
+  text-decoration: underline;
+}
+
+.nav-link.active {
+  font-weight: bold;
+  color: red;
+}
+
+
